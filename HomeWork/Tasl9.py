@@ -10,5 +10,5 @@ sum = 0
 for i in str(n):
     if i != '.':
         sum+=int(i)
-print (sum)
+print (f"{n} -> {sum}")
 
