@@ -8,3 +8,24 @@
 # Результат:
 # 40x⁹ - x⁸ -5x⁷ + 15x⁶ +5x⁴ + 5x³ + x² - 13x¹ + 53 = 0
 
+Eq1 = r'PythonWork/HomeWork/TextTask22_1.txt'
+Eq2 = r'PythonWork/HomeWork/TextTask22_2.txt'
+
+try:
+    with open (Eq1) as data:
+        file1 = data.read()
+except:
+    print ("Ошибка данных")
+
+try:
+    with open (Eq2) as data:
+        file2 = data.read()
+except:
+    print ("Ошибка данных")
+
+file1 = file1.replace(' + ', ' +').replace(' - ', ' -').split()[:-2]
+file2 = file2.replace(' + ', ' +').replace(' - ', ' -').split()[:-2]
+
+print (file1)
+print (file2)
+

@@ -29,9 +29,11 @@ def createEquation ():
     return (equation + ' = 0')
 
 eq1 = createEquation()
-print ((eq1.replace('x**1', 'x').replace('x**0', '')).replace('1x**', 'x**'))
+# print ((eq1.replace('x**1', 'x').replace('x**0', '')).replace('1x**', 'x**'))
+print (eq1)
 eq2 = createEquation()
-print ((eq2.replace('x**1', 'x').replace('x**0', '')).replace('1x**', 'x**'))
+print (eq2)
+# print ((eq2.replace('x**1', 'x').replace('x**0', '')).replace('1x**', 'x**'))
 
 
 # Делал параллельно семинару, сам бы не вывез если честно(
