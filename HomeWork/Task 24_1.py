@@ -7,23 +7,23 @@ offer = input('Согласны сыграть? (да/нет): ')
 
 if offer == 'да':
     def quantCandy (name):
-        x = int(input(f'{name}, введите количество конфет от 1 до 28: '))
+        x = int(input(f'\n{name}, введите количество конфет от 1 до 28: '))
         while x < 1 or x > 28:
-            x = int(input(f'{name}, Вы ошиблись, введите корректное количество конфет от 1 до 28: '))
+            x = int(input(f'\n{name}, Вы ошиблись, введите корректное количество конфет от 1 до 28: '))
         return x
 
     def printMotion (name, m, count, general):
-        print (f'{name} сделал(а) свой ход и взял(а) {m} конфет(ы), теперь у него(неё) {count}, осталось всего {general}')
+        print (f'\n{name} сделал(а) свой ход и взял(а) {m} конфет(ы), теперь у него(неё) {count}, осталось всего {general}')
 
-    player1 = input('Введите имя первого игрока: ')
+    player1 = input('\nВведите имя первого игрока: ')
     player2 = 'Скайнет'
     general = 150
     flag = randint(0,2)
 
     if flag:
-        print(f'Первым(ой) ходит {player1}')
+        print(f'\nПервым(ой) ходит {player1}')
     else:
-        print(f'Первым(ой) ходит {player2}')
+        print(f'\nПервым(ой) ходит {player2}')
     count1 = 0
     count2 = 0
 
