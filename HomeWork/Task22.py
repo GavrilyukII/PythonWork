@@ -39,10 +39,10 @@ for i in range (len(file2)):
     file2[i] = file2[i].replace('+', '').split('x**')
     equation2[int(file2[i][1])] = int(file2[i][0])
 
-# print (file1)
-# print (equation1)
-# print (file2)
-# print (equation2)
+print (file1)
+print (equation1)
+print (file2)
+print (equation2)
 
 resultEquation = {}
 
@@ -59,7 +59,7 @@ for i in range (len(resultEquation)-1, -1, -1):
 
 
 finalfile = finalfile.replace('x**1', 'x').replace('*x**0', '').replace('+ -', '- ')[:-2] + '= 0'
-# print(finalfile[:-3] + ' = 0')
+print(finalfile[:-3] + ' = 0')
 
 try:
     with open (Eq3, 'w') as data:
