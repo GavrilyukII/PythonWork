@@ -5,8 +5,8 @@ print (string)
 find = input("Введите искомый элемент: ")
 
 jobList = string.split(' ')
-print (jobList)
+# print (jobList)
 
 reslist = [x for x in jobList if not find in x]
 
-print (reslist)
+print (' '.join(reslist))
