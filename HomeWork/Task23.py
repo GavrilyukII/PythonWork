@@ -7,6 +7,7 @@ find = input("Введите искомый элемент: ")
 jobList = string.split(' ')
 # print (jobList)
 
-reslist = [x for x in jobList if not find in x]
+reslist = [x for x in jobList if not find in x] # и так ранее использовал List Comprehensions
 
 print (' '.join(reslist))
+
