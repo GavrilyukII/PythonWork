@@ -1,0 +1,8 @@
+xpath:
+  LOCATOR_LOGIN: //*[@id="login"]/div[1]/label/input
+  LOCATOR_PASS: //*[@id="login"]/div[2]/label/input
+  LOCATOR_ABOUT_BTN: //a[@href="/about"][@class="svelte-1rc85o5"]
+  HEADER_ABOUT: //h1[@class="svelte-z9xc0"]
+
+css:
+  LOCATOR_LOGIN_BTN: button

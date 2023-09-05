@@ -1,0 +1,6 @@
+address: https://test-stand.gb.ru
+sleep_time: 1
+browser: firefox
+wait: 3
+login: niko2101
+passwd: 87c2463fae
